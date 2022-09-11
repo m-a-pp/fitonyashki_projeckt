@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //navigation
+    <string name="Cancel_1">Cancel</string>
+    <string name="Complete_1">Complete</string>
+    <string name="Cancel_2">canceled</string>
+    <string name="Complete_2">completed</string>
+    <string name="Agree">OK</string>
+
+    //profile
+    <string name="Statistic_1">Index 1: Statistics</string>
+    <string name="profile_Home">Home</string>
+    <string name="profile_Statistic">Statistic</string>
+    <string name="profile">Profile</string>
+    <string name="help">Help</string>
+
+    //infa_about_user
+    <string name="name_1">Some name</string>
+    <string name="email_user">some_email@gmail.com</string>
+    <string name="name_user">Your name</string>
+    <string name="change_name">Type your new name</string>
+    <string name="growth_user">Your growth</string>
+    <string name="change_growth">Type your current growth</string>
+    <string name="weight_user">Your weight</string>
+    <string name="change_weight">Type your current weight</string>
+    <string name="input_name">Username: ${user.name}</string>
+    <string name="input_growth">Growth: ${user.growth} cm</string>
+    <string name="input_weight">Weight: ${user.weight} kg</string>
+
+    //communicate with user
+    <string name="some_info">There will be some \ninfo for our user</string>
+    <string name="greetings">Hello, ${user.name}!</string>
+    <string name="work_reminder">Time to workout</string>
+    <string name="digital_input_1">Please enter only digits</string>
+    <string name="digital_input_2">Please enter only digits and \'.\'</string><string name="app_name">How many</string>
+    <string name="choice">Type how many</string>
+    <string name="required_input">This filed is required</string>
+    <string name="how_much_to_burn">You will burn: ${currentActivity.kcals} kcals</string>
+    <string name="how_long_distance">You need to cover the distance ${currentActivity.distance} km</string>
+    <string name="data_about_activity">Distance: ${activityList[index].distance} km, Burnt: ${activityList[index].kcals} kcals</string>
+
+    //activity
+    <string name="choice_activity">Current activity</string>
+    <string name="walking">Walking</string>
+    <string name="running">Run</string>
+
+    //function
+    <string name="changes">Changes</string>
+    <string name="continuation">Keep up</string>
+    <string name="choice_mode">What mode?</string>
+
+
+
+</resources>
